@@ -403,7 +403,7 @@ Connection ~ 1450 2200
 Text HLabel 1350 2200 0    50   Input ~ 0
 RC_PWM
 $Comp
-L besc-g2-rescue:USBLC6-2SC6-Power_Protection-besc-g2-rescue U9
+L besc-g2-rescue:USBLC6-2SC6-Power_Protection U9
 U 1 1 5DE2130D
 P 4950 1850
 F 0 "U9" H 5100 2350 50  0000 C CNN
