@@ -1,4 +1,4 @@
-# TRAVERSE VESC
+# TRAVERSE 120V 200A VESC
 alpha controller
 
 Based on BESC-G2 VESC
