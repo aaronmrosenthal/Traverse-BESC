@@ -448,45 +448,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 1600 8250 1550
 $Comp
-L 74xGxx:74AHC1G04 U7
-U 1 1 5CEB8C8A
-P 2950 5050
-F 0 "U7" H 3050 5150 50  0000 C CNN
-F 1 "SN74LVC1G04" H 2600 5250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2950 5050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2950 5050 50  0001 C CNN
-	1    2950 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR084
-U 1 1 5CEB9CDA
-P 2950 5250
-F 0 "#PWR084" H 2950 5000 50  0001 C CNN
-F 1 "GNDD" H 2954 5095 50  0000 C CNN
-F 2 "" H 2950 5250 50  0001 C CNN
-F 3 "" H 2950 5250 50  0001 C CNN
-	1    2950 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 5150 2950 5250
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5CEBBABE
-P 2950 4850
-AR Path="/5C9CD837/5CEBBABE" Ref="#PWR?"  Part="1" 
-AR Path="/5CA11DF8/5CEBBABE" Ref="#PWR083"  Part="1" 
-F 0 "#PWR083" H 2950 4700 50  0001 C CNN
-F 1 "+3.3V" H 2965 5023 50  0000 C CNN
-F 2 "" H 2950 4850 50  0001 C CNN
-F 3 "" H 2950 4850 50  0001 C CNN
-	1    2950 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 4950 2950 4850
-$Comp
 L Device:C_Small C63
 U 1 1 5CEBE2DF
 P 2650 5600
@@ -525,8 +486,6 @@ Wire Wire Line
 	2650 5450 2650 5500
 Wire Wire Line
 	2650 5700 2650 5750
-Wire Wire Line
-	3200 5050 3300 5050
 $Comp
 L Device:C_Small C65
 U 1 1 5CECF2D3
@@ -991,8 +950,6 @@ Wire Wire Line
 	7000 4500 7550 4500
 Text Label 2050 5050 0    50   ~ 0
 GATE_ENABLE
-Wire Wire Line
-	2650 5050 2050 5050
 Text HLabel 7100 4600 2    50   Input ~ 0
 RC_PWM
 Wire Wire Line
@@ -1128,4 +1085,6 @@ Wire Wire Line
 	4650 2300 4650 2250
 Wire Wire Line
 	2350 1600 2600 1600
+Wire Wire Line
+	2050 5050 3300 5050
 $EndSCHEMATC
